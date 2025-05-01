@@ -50,3 +50,17 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# macOS-specific files
+.DS_Store
+._*
+
+# VSCode settings
+.vscode/
+
+# Build directories
+build/
+out/
+
+# Temporary editor files
+*.swp
